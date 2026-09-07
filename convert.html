@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NADA — Note Conversion</title>
+<style>
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4F7F5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #14201A;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+  .card {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+  }
+  .badge {
+    width: 88px;
+    height: 88px;
+    border-radius: 22px;
+    overflow: hidden;
+    margin: 0 auto 24px;
+    display: block;
+  }
+  h1 {
+    font-size: 24px;
+    margin: 0 0 12px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #536159;
+    margin: 0 0 28px;
+  }
+  .btn {
+    display: inline-block;
+    background: #176B4A;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 28px;
+    border-radius: 14px;
+  }
+  .note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #7B8981;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <svg class="badge" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+      <rect width="108" height="108" fill="#0F1512"/>
+      <circle cx="54" cy="54" r="8" fill="none" stroke="#176B4A" stroke-width="3"/>
+      <circle cx="54" cy="54" r="18" fill="none" stroke="#176B4A" stroke-width="2.5" stroke-opacity="0.75"/>
+      <circle cx="54" cy="54" r="28" fill="none" stroke="#176B4A" stroke-width="2" stroke-opacity="0.5"/>
+      <circle cx="54" cy="54" r="3" fill="#176B4A"/>
+    </svg>
+    <h1>This is a shared NADA note conversion</h1>
+    <p>Someone shared a Western &#8596; Carnatic note conversion with you from NADA. Install the app to view it — once it's installed, just tap the shared link again.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.carnatic.shruti">Get it on Google Play</a>
+    <p class="note">Already have NADA installed? Try tapping the original shared link again — it should open directly in the app.</p>
+  </div>
+</body>
+</html>
