@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.carnatic.shruti",
+    "sha256_cert_fingerprints": ["33:25:95:B0:C0:3D:CA:9F:E8:36:F3:D4:66:A7:08:14:10:19:8A:88:10:26:76:05:58:CF:FC:DB:9E:38:7F:28"]
+  }
+}]
